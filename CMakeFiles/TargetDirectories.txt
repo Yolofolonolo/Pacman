@@ -1,0 +1,4 @@
+/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/CMakeFiles/Pacman-tests.dir
+/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/CMakeFiles/Pacman.dir
