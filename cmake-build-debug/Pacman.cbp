@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Pacman"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\proj\;CMake Files\..\..\proj\cmake\;CMake Files\..\..\proj\cmake\modules\;CMake Files\..\..\lib\;CMake Files\..\..\lib\macosx\;CMake Files\..\..\lib\macosx\Debug\;CMake Files\..\..\cmake-build-debug\;CMake Files\..\..\cmake-build-debug\lib\;CMake Files\..\..\cmake-build-debug\lib\macosx\;CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pacman-tests">
+				<Option output="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Debug/Pacman-tests/Pacman-tests.app/Contents/MacOS/Pacman-tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/include"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pacman-tests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pacman-tests/fast">
+				<Option output="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Debug/Pacman-tests/Pacman-tests.app/Contents/MacOS/Pacman-tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/include"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pacman-tests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pacman">
+				<Option output="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Debug/Pacman/Pacman.app/Contents/MacOS/Pacman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/include"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pacman"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pacman/fast">
+				<Option output="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Debug/Pacman/Pacman.app/Contents/MacOS/Pacman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/include"/>
+					<Add directory="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pacman/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/apps/cinder_app_main.cc">
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/game_over_screen.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/ghost.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/map.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/pacman.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/pacman_app.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/pacman_engine.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/power_up.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/snack.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/src/wall.cc">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/tests/test_ghost.cc">
+			<Option target="Pacman-tests"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/tests/test_main.cc">
+			<Option target="Pacman-tests"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/tests/test_pacman.cc">
+			<Option target="Pacman-tests"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/tests/test_pacman_engine.cc">
+			<Option target="Pacman-tests"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/samples/data/CinderApp.icns">
+			<Option target="Pacman-tests"/>
+			<Option target="Pacman"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/../../proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/../../lib/macosx/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/ananyaagarwal/Desktop/cinder_0.9.2_mac/my_projects/Pacman/../../cmake-build-debug/lib/macosx/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
